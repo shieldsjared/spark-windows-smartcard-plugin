@@ -1,0 +1,13 @@
+<!-- Define your plugin -->
+<plugin>
+    <name>spark-windows-pki</name>
+    <version>1.0</version>
+    <author>Jared Shields</author>
+    <homePage>http://www.jivesoftware.org</homePage>
+    <email>shieldsjared@gmail.com</email>
+    <description>Enables the selection of a client certificate from the windows user's certificate store when requested by the server during authentication.</description>
+    <class>shieldsjared.apps.spark.sparkwindowspki.WindowsPkiPlugin</class>
+    <minSparkVersion>2.7.0</minSparkVersion>
+    <java>1.7</java>
+</plugin>
+
